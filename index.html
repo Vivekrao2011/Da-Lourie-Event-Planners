@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Da Lourie Event Planners - Bespoke luxury weddings, galas, and private celebrations tailored with exquisite precision and timeless elegance.">
+  <meta name="keywords" content="Da Lourie, event planners, luxury wedding planner, corporate gala, luxury event design, wedding coordinator">
+  <title>Da Lourie Event Planners | Bespoke Celebrations & Luxury Events</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Announcement Bar -->
+  <aside class="top-announcement" aria-label="Announcement">
+    <div class="container top-bar-content">
+      <span class="pill-badge">2026/2027 Calendar</span>
+      <p>Now accepting reservations for exclusive autumn & spring celebration dates</p>
+      <a href="#contact" class="top-link">Inquire Now &rarr;</a>
+    </div>
+  </aside>
+
+  <!-- Navigation -->
+  <header class="site-header" id="navbar">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo" aria-label="Da Lourie Event Planners Home">
+        <span class="logo-monogram">DL</span>
+        <div class="logo-text">
+          <span class="brand-name">DA LOURIE</span>
+          <span class="brand-sub">EVENT PLANNERS</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+        <a href="#about" class="nav-item">About</a>
+        <a href="#services" class="nav-item">Services</a>
+        <a href="#portfolio" class="nav-item">Portfolio</a>
+        <a href="#process" class="nav-item">The Experience</a>
+        <a href="#calculator" class="nav-item">Estimate</a>
+        <a href="#testimonials" class="nav-item">Praise</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-primary" id="openConsultationBtn">
+          <span>Book Consultation</span>
+          <i data-lucide="arrow-up-right"></i>
+        </button>
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="drawer-header">
+      <span class="brand-name">DA LOURIE</span>
+      <button class="drawer-close" id="closeDrawerBtn" aria-label="Close menu">&times;</button>
+    </div>
+    <nav class="drawer-nav">
+      <a href="#about" class="drawer-link">About</a>
+      <a href="#services" class="drawer-link">Services</a>
+      <a href="#portfolio" class="drawer-link">Portfolio</a>
+      <a href="#process" class="drawer-link">The Experience</a>
+      <a href="#calculator" class="drawer-link">Estimate</a>
+      <a href="#testimonials" class="drawer-link">Praise</a>
+      <a href="#contact" class="drawer-link">Contact</a>
+      <button class="btn btn-primary btn-block mt-4" id="drawerCtaBtn">Book Consultation</button>
+    </nav>
+  </div>
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-backdrop">
+        <img src="images/hero.jpg" alt="Grand candlelit ballroom reception with crystal chandeliers and cascading white floral arrangements" class="hero-bg-img" id="heroBg">
+        <div class="hero-gradient-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="hero-badge animate-fade">
+          <i data-lucide="sparkles" class="icon-sparkle"></i>
+          <span>Curators of Extraordinary Moments</span>
+        </div>
+
+        <h1 class="hero-title animate-fade-delay-1">
+          Where Grand Vision Meets <br>
+          <span class="text-italic-gold">Couture Perfection</span>
+        </h1>
+
+        <p class="hero-subtitle animate-fade-delay-2">
+          Da Lourie transforms rare milestones into transcendental experiences. Specializing in bespoke weddings, high-caliber galas, and secluded soirées with flawless artistic direction.
+        </p>
+
+        <div class="hero-cta-group animate-fade-delay-3">
+          <a href="#portfolio" class="btn btn-primary btn-lg">
+            <span>Explore Our Portfolio</span>
+            <i data-lucide="sparkles"></i>
+          </a>
+          <a href="#calculator" class="btn btn-glass btn-lg">
+            <span>Curate Your Budget</span>
+            <i data-lucide="calculator"></i>
+          </a>
+        </div>
+
+        <!-- Trust Metric Strip -->
+        <div class="hero-stats-strip animate-fade-delay-4">
+          <div class="stat-cell">
+            <span class="stat-number" data-target="14">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Years of Mastery</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-cell">
+            <span class="stat-number" data-target="580">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Bespoke Celebrations</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-cell">
+            <span class="stat-number" data-target="100">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">Flawless Day-Of Execution</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-cell">
+            <span class="stat-number" data-target="28">0</span><span class="stat-suffix"></span>
+            <span class="stat-label">Global Destinations</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down to About section">
+        <span class="mouse-icon"><span class="mouse-wheel"></span></span>
+        <span class="scroll-text">Discover Da Lourie</span>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-media-wrapper">
+            <div class="about-image-card">
+              <img src="images/decor.jpg" alt="Exquisite table styling and luxury gold dinnerware with soft florals" class="about-img main-img">
+              <div class="image-accent-border"></div>
+            </div>
+            <div class="floating-award-card">
+              <div class="award-icon">
+                <i data-lucide="award"></i>
+              </div>
+              <div class="award-text">
+                <strong>Vogue & Brides Premier Choice</strong>
+                <span>Recognized Top Luxury Event Planner</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>Our Philosophy</span>
+            </div>
+            <h2 class="section-title">
+              Crafting Immersive Atmosphere <br>
+              <span class="text-italic-gold">Beyond Expectations</span>
+            </h2>
+            <p class="about-lead">
+              Founded on the belief that a true celebration is a symphony of senses, Da Lourie Event Planners marries structural precision with cinematic styling.
+            </p>
+            <p class="about-body">
+              Every detail—from the acoustic ambiance and scent-scaped florals to custom culinary curation and lighting choreography—is meticulously composed to reflect your individual essence. We handle the logistical intricacies so you and your guests can surrender completely to the magic of the moment.
+            </p>
+
+            <div class="about-pillars">
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <i data-lucide="palette"></i>
+                </div>
+                <div>
+                  <h4>Artistic Direction</h4>
+                  <p>Bespoke moodboarding, spatial architecture, and sensory design tailored uniquely to you.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <div class="pillar-icon">
+                  <i data-lucide="shield-check"></i>
+                </div>
+                <div>
+                  <h4>White-Glove Coordination</h4>
+                  <p>Uncompromising vendor selection, contingency planning, and seamless day-of management.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="signature-block">
+              <p class="quote-text">"True luxury is not merely how an event looks; it is the lingering emotion it leaves in every guest's heart."</p>
+              <div class="founder-info">
+                <span class="founder-signature">Evangeline Da Lourie</span>
+                <span class="founder-title">Founder & Principal Creative Director</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services-section section-padding" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <span class="tag-line"></span>
+            <span>Bespoke Offerings</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-title">Designed for Distinction</h2>
+          <p class="section-subtitle">
+            Whether an opulent gala under crystal chandeliers or an intimate moonlit garden dinner, we architect experiences of sublime refinement.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card" data-service="weddings">
+            <div class="service-image-box">
+              <img src="images/hero.jpg" alt="Luxury Wedding Planning" class="service-img">
+              <span class="service-badge">Flagship</span>
+            </div>
+            <div class="service-content">
+              <div class="service-number">01</div>
+              <h3 class="service-title">Couture Wedding Design & Production</h3>
+              <p class="service-description">
+                Comprehensive end-to-end wedding curation. From venue scouting in historic estates to custom bridal concierge, floral installations, and seamless timeline orchestration.
+              </p>
+              <ul class="service-features">
+                <li><i data-lucide="check"></i> 12+ Months Full Service Management</li>
+                <li><i data-lucide="check"></i> Complete Spatial & 3D Lighting Design</li>
+                <li><i data-lucide="check"></i> Private Tasting & Sommelier Curation</li>
+                <li><i data-lucide="check"></i> Dedicated Day-of Concierge Team</li>
+              </ul>
+              <button class="service-cta-btn open-modal-service" data-title="Couture Wedding Design">
+                Inquire For Weddings &rarr;
+              </button>
+            </div>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card" data-service="galas">
+            <div class="service-image-box">
+              <img src="images/corporate.jpg" alt="Corporate Gala & Summit Production" class="service-img">
+              <span class="service-badge">Corporate & VIP</span>
+            </div>
+            <div class="service-content">
+              <div class="service-number">02</div>
+              <h3 class="service-title">Prestige Galas & Brand Summits</h3>
+              <p class="service-description">
+                High-stakes corporate summits, annual charity galas, and luxury product launches executed with institutional discretion, impeccable AV systems, and keynote polish.
+              </p>
+              <ul class="service-features">
+                <li><i data-lucide="check"></i> VIP Hospitality & Protocol Management</li>
+                <li><i data-lucide="check"></i> Immersive Stage & Audio-Visual Engineering</li>
+                <li><i data-lucide="check"></i> Brand Narrative Spatial Integration</li>
+                <li><i data-lucide="check"></i> Comprehensive Security & Press Flow</li>
+              </ul>
+              <button class="service-cta-btn open-modal-service" data-title="Prestige Galas & Summits">
+                Inquire For Corporate Events &rarr;
+              </button>
+            </div>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card" data-service="private">
+            <div class="service-image-box">
+              <img src="images/garden.jpg" alt="Private Soirées & Alfresco Dinners" class="service-img">
+              <span class="service-badge">Intimate Luxury</span>
+            </div>
+            <div class="service-content">
+              <div class="service-number">03</div>
+              <h3 class="service-title">Private Soirées & Milestone Celebrations</h3>
+              <p class="service-description">
+                Anniversaries, milestone birthdays, and exclusive villa dinner parties curated with romantic intimacy, world-class private chefs, and magical live acoustic performances.
+              </p>
+              <ul class="service-features">
+                <li><i data-lucide="check"></i> Curated Estate & Villa Sourcing</li>
+                <li><i data-lucide="check"></i> Bespoke Table Scapes & Candle Architecture</li>
+                <li><i data-lucide="check"></i> Private Mixology & Gastronomy Pairings</li>
+                <li><i data-lucide="check"></i> Discrete Guest Privacy Protocols</li>
+              </ul>
+              <button class="service-cta-btn open-modal-service" data-title="Private Soirées">
+                Inquire For Private Soirées &rarr;
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Event Budget Estimator -->
+    <section class="calculator-section section-padding" id="calculator">
+      <div class="container">
+        <div class="calculator-wrapper">
+          <div class="calculator-intro">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>Transparent Planning</span>
+            </div>
+            <h2 class="section-title text-light">
+              Interactive Investment <br>
+              <span class="text-italic-gold">Estimator</span>
+            </h2>
+            <p class="text-muted">
+              Explore ballpark budgets for your vision. Adjust your celebration style, guest count, and service tier to receive an immediate tailored projection.
+            </p>
+
+            <div class="calc-highlights">
+              <div class="highlight-item">
+                <i data-lucide="sparkle"></i>
+                <span>Every package is fully customized post-consultation</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="shield"></i>
+                <span>Zero hidden agency fees or surprise markups</span>
+              </div>
+              <div class="highlight-item">
+                <i data-lucide="check-circle-2"></i>
+                <span>Includes Da Lourie master production guarantee</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="calculator-card">
+            <form id="estimatorForm" onsubmit="event.preventDefault();">
+              <!-- Step 1: Event Type -->
+              <div class="form-group">
+                <label class="form-label">1. Celebration Category</label>
+                <div class="type-selector-grid">
+                  <label class="type-option active">
+                    <input type="radio" name="eventType" value="wedding" checked>
+                    <span class="option-icon"><i data-lucide="heart"></i></span>
+                    <span class="option-title">Wedding Gala</span>
+                  </label>
+                  <label class="type-option">
+                    <input type="radio" name="eventType" value="corporate">
+                    <span class="option-icon"><i data-lucide="briefcase"></i></span>
+                    <span class="option-title">Corporate Gala</span>
+                  </label>
+                  <label class="type-option">
+                    <input type="radio" name="eventType" value="private">
+                    <span class="option-icon"><i data-lucide="wine"></i></span>
+                    <span class="option-title">Private Soirée</span>
+                  </label>
+                  <label class="type-option">
+                    <input type="radio" name="eventType" value="destination">
+                    <span class="option-icon"><i data-lucide="compass"></i></span>
+                    <span class="option-title">Destination</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Step 2: Guest Count Slider -->
+              <div class="form-group">
+                <div class="slider-header">
+                  <label class="form-label" for="guestRange">2. Estimated Guests</label>
+                  <span class="slider-value" id="guestCountDisplay">150 Guests</span>
+                </div>
+                <input type="range" id="guestRange" min="20" max="600" step="10" value="150" class="custom-range">
+                <div class="range-labels">
+                  <span>Intimate (20)</span>
+                  <span>Midsize (250)</span>
+                  <span>Grand Scale (600+)</span>
+                </div>
+              </div>
+
+              <!-- Step 3: Service Tier -->
+              <div class="form-group">
+                <label class="form-label">3. Planning Scope</label>
+                <div class="tier-selector">
+                  <label class="tier-card active">
+                    <input type="radio" name="serviceTier" value="full" checked>
+                    <div class="tier-info">
+                      <span class="tier-title">Full Couture Production</span>
+                      <span class="tier-desc">Complete conceptualization, sourcing, timeline & all-day team</span>
+                    </div>
+                  </label>
+                  <label class="tier-card">
+                    <input type="radio" name="serviceTier" value="partial">
+                    <div class="tier-info">
+                      <span class="tier-title">Design & Styling Direction</span>
+                      <span class="tier-desc">Aesthetic curation, vendor coordination, lighting & florals</span>
+                    </div>
+                  </label>
+                  <label class="tier-card">
+                    <input type="radio" name="serviceTier" value="coordination">
+                    <div class="tier-info">
+                      <span class="tier-title">Executive Month-Of Direction</span>
+                      <span class="tier-desc">Logistics takeover 60 days prior & day-of execution</span>
+                    </div>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Step 4: Bespoke Addons -->
+              <div class="form-group">
+                <label class="form-label">4. Bespoke Enhancements (Optional)</label>
+                <div class="addon-pills">
+                  <label class="addon-pill">
+                    <input type="checkbox" id="addonFloral" value="floral" checked>
+                    <span>High Floral Architecture</span>
+                  </label>
+                  <label class="addon-pill">
+                    <input type="checkbox" id="addonLighting" value="lighting" checked>
+                    <span>Architectural Ambient Lighting</span>
+                  </label>
+                  <label class="addon-pill">
+                    <input type="checkbox" id="addonConcierge" value="concierge">
+                    <span>VIP Guest Concierge & Transport</span>
+                  </label>
+                  <label class="addon-pill">
+                    <input type="checkbox" id="addonSommelier" value="sommelier">
+                    <span>Master Sommelier & Mixology Bar</span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Calculation Result Banner -->
+              <div class="estimate-result-box">
+                <div class="result-details">
+                  <span class="result-label">Estimated Investment Range</span>
+                  <div class="result-price">
+                    <span id="priceRangeOutput">$38,000 – $48,000</span>
+                  </div>
+                  <span class="result-note">*Includes design fee, production management, and core spatial styling.</span>
+                </div>
+                <button type="button" class="btn btn-gold" id="applyEstimateToContact">
+                  <span>Reserve This Configuration</span>
+                  <i data-lucide="arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section class="portfolio-section section-padding" id="portfolio">
+      <div class="container">
+        <div class="portfolio-header">
+          <div>
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>Selected Works</span>
+            </div>
+            <h2 class="section-title">An Odyssey of Splendor</h2>
+          </div>
+
+          <!-- Filter Controls -->
+          <div class="gallery-filters" role="tablist" aria-label="Portfolio category filter">
+            <button class="filter-btn active" data-filter="all">All Celebrations</button>
+            <button class="filter-btn" data-filter="weddings">Weddings</button>
+            <button class="filter-btn" data-filter="galas">Corporate Galas</button>
+            <button class="filter-btn" data-filter="soirees">Garden Soirées</button>
+            <button class="filter-btn" data-filter="details">Tablescapes & Decor</button>
+          </div>
+        </div>
+
+        <div class="gallery-grid" id="portfolioGrid">
+          <!-- Item 1: Weddings -->
+          <figure class="gallery-item" data-category="weddings">
+            <div class="item-img-wrap">
+              <img src="images/hero.jpg" alt="Grand Chandelier Ballroom Wedding" loading="lazy">
+              <div class="item-overlay">
+                <span class="item-category">Couture Wedding</span>
+                <h3 class="item-title">The Grand Palace Romance</h3>
+                <p class="item-meta">New York City &bull; 400 Guests</p>
+                <button class="view-lightbox-btn" data-src="images/hero.jpg" data-caption="The Grand Palace Romance — Bespoke ballroom gala with 10 crystal chandeliers and imported ivory florals." aria-label="View large photo">
+                  <i data-lucide="maximize-2"></i>
+                </button>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Item 2: Galas -->
+          <figure class="gallery-item" data-category="galas">
+            <div class="item-img-wrap">
+              <img src="images/corporate.jpg" alt="Sapphire Sapphire Illuminations Corporate Gala" loading="lazy">
+              <div class="item-overlay">
+                <span class="item-category">Annual Charity Gala</span>
+                <h3 class="item-title">Sapphire & Gold Symphony</h3>
+                <p class="item-meta">Beverly Hills &bull; 350 Guests</p>
+                <button class="view-lightbox-btn" data-src="images/corporate.jpg" data-caption="Sapphire & Gold Symphony — High-production annual charity gala with synchronized kinetic lighting." aria-label="View large photo">
+                  <i data-lucide="maximize-2"></i>
+                </button>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Item 3: Soirees -->
+          <figure class="gallery-item" data-category="soirees">
+            <div class="item-img-wrap">
+              <img src="images/garden.jpg" alt="Twilight Garden Dinner with Fairy Lights" loading="lazy">
+              <div class="item-overlay">
+                <span class="item-category">Alfresco Soirée</span>
+                <h3 class="item-title">Under The Tuscan Stars</h3>
+                <p class="item-meta">Napa Valley &bull; 80 Guests</p>
+                <button class="view-lightbox-btn" data-src="images/garden.jpg" data-caption="Under The Tuscan Stars — Intimate private garden celebration featuring botanical runners and warm ambient strings." aria-label="View large photo">
+                  <i data-lucide="maximize-2"></i>
+                </button>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Item 4: Details & Tablescapes -->
+          <figure class="gallery-item" data-category="details">
+            <div class="item-img-wrap">
+              <img src="images/decor.jpg" alt="Gold flatware and soft blush floral centerpiece" loading="lazy">
+              <div class="item-overlay">
+                <span class="item-category">Artisan Tablescape</span>
+                <h3 class="item-title">Blush & Gilded Romance</h3>
+                <p class="item-meta">Private Villa &bull; Bespoke Table Styling</p>
+                <button class="view-lightbox-btn" data-src="images/decor.jpg" data-caption="Blush & Gilded Romance — Handcrafted floral centerpieces with gold cutlery and engraved crystal glass." aria-label="View large photo">
+                  <i data-lucide="maximize-2"></i>
+                </button>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Da Lourie Experience / Process -->
+    <section class="process-section section-padding" id="process">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <span class="tag-line"></span>
+            <span>The Four Steps</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-title">The Path to Flawless Artistry</h2>
+          <p class="section-subtitle">
+            How we translate your dreams into an effortless, multi-sensory celebration.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-step">
+            <div class="step-badge">01</div>
+            <div class="step-card">
+              <div class="step-icon"><i data-lucide="compass"></i></div>
+              <h3>Vision Discovery & Sourcing</h3>
+              <p>We begin with an in-depth creative consult to discover your personal aesthetic, guest dynamics, and spatial dreams, followed by exclusive venue scouting.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-badge">02</div>
+            <div class="step-card">
+              <div class="step-icon"><i data-lucide="pen-tool"></i></div>
+              <h3>Bespoke Spatial Design</h3>
+              <p>Our design studio creates cohesive 3D renderings, moodboards, floral blueprints, lighting plots, and bespoke stationery suites.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-badge">03</div>
+            <div class="step-card">
+              <div class="step-icon"><i data-lucide="users"></i></div>
+              <h3>Vendor & Logistics Symphony</h3>
+              <p>We curate world-class caterers, mixologists, musicians, and floral artisans, negotiating contracts and engineering a minute-by-minute timeline.</p>
+            </div>
+          </div>
+
+          <div class="timeline-step">
+            <div class="step-badge">04</div>
+            <div class="step-card">
+              <div class="step-icon"><i data-lucide="sparkles"></i></div>
+              <h3>The Day of Pure Reverie</h3>
+              <p>Our on-site team oversees production with surgical precision. You, your family, and honored guests simply immerse yourselves in effortless joy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials / Praise Section -->
+    <section class="testimonials-section section-padding" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="section-tag center-tag">
+            <span class="tag-line"></span>
+            <span>Client Praise</span>
+            <span class="tag-line"></span>
+          </div>
+          <h2 class="section-title">Words From Those Who Celebrated</h2>
+        </div>
+
+        <div class="testimonial-slider-wrapper">
+          <div class="testimonials-track" id="testimonialTrack">
+            <!-- Review 1 -->
+            <div class="testimonial-card">
+              <div class="stars-row">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+              <blockquote class="testimonial-quote">
+                "Evangeline and the Da Lourie team did not just plan our wedding; they orchestrated a fairytale that our 350 guests are still talking about two years later. The floral tunnel was breathtaking beyond words."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">SC</div>
+                <div>
+                  <h4 class="author-name">Seraphina & Charles Sterling</h4>
+                  <span class="author-event">The Plaza Hotel Wedding, New York</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="testimonial-card">
+              <div class="stars-row">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+              <blockquote class="testimonial-quote">
+                "Da Lourie managed our international brand gala with 500 tech executives and celebrities. Their poise, precision AV synchronization, and culinary curation set a standard we didn't know was possible."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">AL</div>
+                <div>
+                  <h4 class="author-name">Alexander Laurent</h4>
+                  <span class="author-event">VP of Brand, Globex International Gala</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="testimonial-card">
+              <div class="stars-row">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+              <blockquote class="testimonial-quote">
+                "From our first phone call, there was an immediate sense of calm and poise. They took care of every single vendor emergency before we even heard of it. I had the most peaceful wedding day of any bride I know."
+              </blockquote>
+              <div class="testimonial-author">
+                <div class="author-avatar">EM</div>
+                <div>
+                  <h4 class="author-name">Elena & Marcus Vance</h4>
+                  <span class="author-event">Sonoma Valley Vineyard Estate Wedding</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Nav Controls -->
+          <div class="slider-controls">
+            <button class="slider-arrow" id="prevTestimonial" aria-label="Previous testimonial">
+              <i data-lucide="chevron-left"></i>
+            </button>
+            <div class="slider-dots" id="testimonialDots"></div>
+            <button class="slider-arrow" id="nextTestimonial" aria-label="Next testimonial">
+              <i data-lucide="chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq-section section-padding">
+      <div class="container faq-container">
+        <div class="faq-intro">
+          <div class="section-tag">
+            <span class="tag-line"></span>
+            <span>Common Inquiries</span>
+          </div>
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="text-muted">
+            Everything you need to know about partnering with Da Lourie Event Planners.
+          </p>
+          <div class="faq-cta-box">
+            <p>Have an unprecedented request or confidential requirement?</p>
+            <a href="#contact" class="link-gold">Speak Directly with Principal Director &rarr;</a>
+          </div>
+        </div>
+
+        <div class="accordion" id="faqAccordion">
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="true">
+              <span>How far in advance should we reserve Da Lourie?</span>
+              <i data-lucide="chevron-down" class="acc-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <p>For premier wedding dates and peak autumn/spring seasons, we recommend booking 9 to 18 months in advance. We strictly cap our portfolio to a maximum of 15 full-scale weddings and 8 galas annually to ensure absolute intimacy, focus, and white-glove dedication.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Do you coordinate destination weddings and international events?</span>
+              <i data-lucide="chevron-down" class="acc-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <p>Yes. Our team regularly produces events across Europe (Lake Como, Paris, the Amalfi Coast), the Caribbean, and premier North American destinations. We handle customs logistics, destination vendor vetting, guest travel concierge, and local permit acquisition.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>Can we choose our own vendors, or do we use your network?</span>
+              <i data-lucide="chevron-down" class="acc-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <p>While we maintain a prestigious black book of top-tier floral artisans, Michelin-caliber caterers, and lighting designers, we warmly welcome collaborations with any creative partners you have your heart set upon.</p>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <button class="accordion-header" aria-expanded="false">
+              <span>What is your fee structure?</span>
+              <i data-lucide="chevron-down" class="acc-icon"></i>
+            </button>
+            <div class="accordion-body">
+              <p>We work on a transparent flat design and management retainer plus a standardized percentage of production costs, ensuring complete clarity with zero hidden markups. Try our interactive estimator above for immediate ballpark insights.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Consultation Section -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info-col">
+            <div class="section-tag">
+              <span class="tag-line"></span>
+              <span>Begin The Journey</span>
+            </div>
+            <h2 class="section-title">
+              Let's Create Your <br>
+              <span class="text-italic-gold">Masterpiece</span>
+            </h2>
+            <p class="contact-text">
+              Our calendar is thoughtfully curated to provide an uncompromising standard of service. Share your vision, and our senior directors will reach out within 24 business hours.
+            </p>
+
+            <div class="contact-details">
+              <div class="detail-row">
+                <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+                <div>
+                  <strong>Ateliers</strong>
+                  <p>Manhattan &bull; Beverly Hills &bull; Paris</p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <div class="detail-icon"><i data-lucide="mail"></i></div>
+                <div>
+                  <strong>Private Inquiries</strong>
+                  <p><a href="mailto:concierge@dalourie-events.com">concierge@dalourie-events.com</a></p>
+                </div>
+              </div>
+
+              <div class="detail-row">
+                <div class="detail-icon"><i data-lucide="phone"></i></div>
+                <div>
+                  <strong>Direct Line</strong>
+                  <p>+1 (800) 492-LOURIE / +1 (212) 555-0194</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="trust-badge-row">
+              <span class="micro-badge"><i data-lucide="lock"></i> Strict Non-Disclosure & Privacy</span>
+              <span class="micro-badge"><i data-lucide="shield-alert"></i> Fully Insured & Bonded</span>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-col">
+            <div class="form-wrapper-glass">
+              <h3 class="form-title">Request a Private Consultation</h3>
+              <p class="form-subtitle">Fill in the celebration details below:</p>
+
+              <form id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="input-field">
+                    <label for="fullName">Your Full Name *</label>
+                    <input type="text" id="fullName" name="fullName" placeholder="e.g. Eleanor Vance" required>
+                    <span class="error-msg" id="nameError">Please enter your name.</span>
+                  </div>
+                  <div class="input-field">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" placeholder="eleanor@vance.com" required>
+                    <span class="error-msg" id="emailError">Please enter a valid email.</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="input-field">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" required>
+                    <span class="error-msg" id="phoneError">Please provide your contact number.</span>
+                  </div>
+                  <div class="input-field">
+                    <label for="eventDate">Desired Event Date</label>
+                    <input type="date" id="eventDate" name="eventDate">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="input-field">
+                    <label for="formEventType">Event Type *</label>
+                    <select id="formEventType" name="formEventType" required>
+                      <option value="Luxury Wedding">Luxury Wedding & Reception</option>
+                      <option value="Corporate Gala">Corporate Gala / Prestige Summit</option>
+                      <option value="Private Soirée">Private Soirée / Milestone</option>
+                      <option value="Destination Celebration">Destination Celebration</option>
+                      <option value="Other Bespoke Event">Other Bespoke Event</option>
+                    </select>
+                  </div>
+                  <div class="input-field">
+                    <label for="formBudget">Planned Investment Range</label>
+                    <select id="formBudget" name="formBudget">
+                      <option value="$25k - $50k">$25,000 – $50,000</option>
+                      <option value="$50k - $100k" selected>$50,000 – $100,000</option>
+                      <option value="$100k - $250k">$100,000 – $250,000</option>
+                      <option value="$250k+">$250,000+ (Grand Production)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="input-field">
+                  <label for="eventVision">Tell Us About Your Vision & Venue Preferences</label>
+                  <textarea id="eventVision" name="eventVision" rows="4" placeholder="Share your desired atmosphere, venue ideas, guest count, or any aesthetic inspiration..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-gold btn-block btn-lg" id="submitFormBtn">
+                  <span>Send Consultation Request</span>
+                  <i data-lucide="send"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-name">DA LOURIE</div>
+          <span class="brand-sub">EVENT PLANNERS</span>
+          <p class="footer-tagline">
+            Curating rare celebrations and unforgettable luxury environments across the world's most breathtaking venues.
+          </p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram" class="social-icon"><i data-lucide="instagram"></i></a>
+            <a href="#" aria-label="Pinterest" class="social-icon"><i data-lucide="pin"></i></a>
+            <a href="#" aria-label="Linkedin" class="social-icon"><i data-lucide="linkedin"></i></a>
+            <a href="#" aria-label="Facebook" class="social-icon"><i data-lucide="facebook"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Celebrations</h4>
+          <ul>
+            <li><a href="#services">Couture Weddings</a></li>
+            <li><a href="#services">Corporate Galas</a></li>
+            <li><a href="#services">Private Soirées</a></li>
+            <li><a href="#services">Floral Architecture</a></li>
+            <li><a href="#calculator">Investment Estimator</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Ateliers</h4>
+          <ul>
+            <li>New York City: 740 5th Avenue</li>
+            <li>Beverly Hills: 9500 Wilshire Blvd</li>
+            <li>Paris: Place Vendôme</li>
+            <li>Direct: +1 (212) 555-0194</li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Private Journal</h4>
+          <p class="text-sm">Receive seasonal invitations, wedding aesthetic forecasts, and design inspirations.</p>
+          <form class="footer-newsletter" id="newsletterForm" onsubmit="event.preventDefault(); alert('Thank you for subscribing to the Da Lourie Gazette.');">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit" aria-label="Subscribe"><i data-lucide="arrow-right"></i></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Da Lourie Event Planners LLC. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span>&bull;</span>
+          <a href="#">Terms of Engagement</a>
+          <span>&bull;</span>
+          <a href="#">Press Kit</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Portfolio -->
+  <div class="lightbox-modal" id="lightboxModal" aria-hidden="true" role="dialog">
+    <div class="lightbox-overlay" id="lightboxOverlay"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close dialog">&times;</button>
+      <img src="" alt="" id="lightboxImg" class="lightbox-image">
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Consultation Booking Modal -->
+  <div class="modal-dialog" id="consultModal" aria-hidden="true" role="dialog">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-window">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+      <div class="modal-header">
+        <span class="modal-eyebrow">Direct Atelier Access</span>
+        <h3 class="modal-title">Schedule A Private Design Consultation</h3>
+        <p class="modal-desc">Meet with founder Evangeline Da Lourie via video or in our Manhattan/Beverly Hills salons.</p>
+      </div>
+
+      <form id="quickConsultForm">
+        <div class="modal-form-grid">
+          <div class="input-field">
+            <label for="mName">Name</label>
+            <input type="text" id="mName" placeholder="Your name" required>
+          </div>
+          <div class="input-field">
+            <label for="mEmail">Email</label>
+            <input type="email" id="mEmail" placeholder="your@email.com" required>
+          </div>
+          <div class="input-field">
+            <label for="mPhone">Phone</label>
+            <input type="tel" id="mPhone" placeholder="+1 (555) 000-0000" required>
+          </div>
+          <div class="input-field">
+            <label for="mType">Interest</label>
+            <select id="mType">
+              <option value="Wedding">Couture Wedding</option>
+              <option value="Corporate">Corporate Gala</option>
+              <option value="Private Soirée">Private Soirée</option>
+              <option value="Destination">Destination Event</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="input-field mt-3">
+          <label for="mNotes">Notes / Approximate Date</label>
+          <input type="text" id="mNotes" placeholder="Target month, guest count or special desires...">
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-block mt-4">
+          <span>Confirm Consultation Request</span>
+          <i data-lucide="check"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Success Toast Notification -->
+  <div class="toast-notification" id="toastNotice">
+    <div class="toast-icon"><i data-lucide="check-circle-2"></i></div>
+    <div class="toast-content">
+      <strong id="toastTitle">Inquiry Received</strong>
+      <p id="toastMessage">Thank you. An event director will connect with you within 24 hours.</p>
+    </div>
+    <button class="toast-close" id="toastClose">&times;</button>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
+</body>
+</html>
